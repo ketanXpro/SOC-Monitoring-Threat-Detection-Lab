@@ -1,6 +1,0 @@
-index=* source="WinEventLog:Microsoft-Windows-Sysmon/Operational"
-"<EventID>1</EventID>"
-| rex "Name='Image'>(?<Process>[^<]+)"
-| search Process="*powershell*" OR Process="*cmd.exe" OR Process="*wmic.exe" OR Process="*certutil.exe" OR Process="*regsvr32.exe" OR Process="*mshta.exe" OR Process="*rundll32.exe"
-| stats count by Process
-| sort -count

@@ -1,7 +1,0 @@
-index=* source="WinEventLog:Microsoft-Windows-Sysmon/Operational"
-"<EventID>1</EventID>"
-| rex "Name='Image'>(?<Process>[^<]+)"
-| search NOT Process="*Splunk*"
-| stats count by Process
-| sort -count
-| head 10

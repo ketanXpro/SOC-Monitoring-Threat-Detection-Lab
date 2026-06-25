@@ -1,3 +1,0 @@
-index=* source="WinEventLog:Security" EventCode=4624
-| stats count by Account_Name
-| sort -count

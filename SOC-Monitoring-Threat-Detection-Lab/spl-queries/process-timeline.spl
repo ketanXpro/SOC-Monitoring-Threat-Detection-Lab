@@ -1,3 +1,0 @@
-index=* source="WinEventLog:Microsoft-Windows-Sysmon/Operational"
-"<EventID>1</EventID>"
-| timechart count

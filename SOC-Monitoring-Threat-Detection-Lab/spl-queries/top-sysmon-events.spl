@@ -1,4 +1,0 @@
-index=* source="WinEventLog:Microsoft-Windows-Sysmon/Operational"
-| rex "<EventID>(?<SysmonEventID>\d+)</EventID>"
-| stats count by SysmonEventID
-| sort SysmonEventID
