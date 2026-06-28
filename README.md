@@ -223,9 +223,9 @@ B.Tech Information Technology Student
 
 Interested in Cybersecurity, SOC Analysis, Data Analytics, and Web Development.
 
-LinkedIn: *(Add your LinkedIn URL)*
+LinkedIn: *https://www.linkedin.com/in/ketan-kumbhar-448785341/*
 
-GitHub: *(Add your GitHub URL)*
+GitHub: *https://github.com/ketanXpro*
 
 ---
 
